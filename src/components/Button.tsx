@@ -4,7 +4,7 @@ type Props = IButtonProps & {
     title: string;
     variant?: 'solid' | 'outline'
 }
-
+// test
 export function Button({title, variant = 'solid', ...rest}: Props){
     return (
         <ButtonNativeBase
